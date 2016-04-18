@@ -21,3 +21,10 @@ div {
 p {
 	font-family: sans-serif;
 }
+
+#titlebar {
+	height: 100px;
+	width: 1000px;
+	margin: auto;
+	border-radius: 6px;
+}
