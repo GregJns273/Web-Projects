@@ -1,2 +1,1 @@
-Testing git and stuff
-now testing it more
+This is where my projects made for web browsers will live.
