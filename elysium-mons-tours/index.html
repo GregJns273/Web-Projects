@@ -41,25 +41,27 @@
 
 	<div id="signup">
 		<h2>Sign Up!</h2>
-		<form action="signupdata.php" method="get">
-			<p>First Name:</p><br>
-			<input type="text" name="firstname">
-			<p>Last Name:</p><br>
-			<input type="text" name="lastname">
-			<p>Address:</p><br>
-			<input type="text" name="address">
-			<p>Phone:</p><br>
-			<input type="text" name="phone"><br>
+		<div id="form">
+			<form action="signupdata.php" method="get">
+				<p>First Name:</p>
+				<input type="text" name="firstname">
+				<p>Last Name:</p>
+				<input type="text" name="lastname"><br>
+				<br>
+				<p>Address:</p>
+				<input type="text" name="address">
+				<p>Phone:</p>
+				<input type="text" name="phone"><br>
 			
-			<select name="plans">
-  				<option value="bronzeplan">Bronze Plan</option>
-  				<option value="silverplan">Silver Plan</option>
-  				<option value="goldplan">Gold Plan</option>
-			</select><br>
+				<select name="plans">
+	  				<option value="bronzeplan">Bronze Plan</option>
+	  				<option value="silverplan">Silver Plan</option>
+	  				<option value="goldplan">Gold Plan</option>
+				</select><br>
 
-			<input type="submit" value="Submit"><br>
-			
-		</form>
+				<input id="submit" type="submit" value="Submit"><br>			
+			</form>
+		</div>
 	</div>
 
 	<div id="navbar">

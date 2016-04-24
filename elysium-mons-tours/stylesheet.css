@@ -20,6 +20,8 @@ div {
 #plans {
 	text-align: center;
 	width: 900px;
+	margin-bottom: 5px;
+	margin: auto;
 }
 
 a {
@@ -32,4 +34,22 @@ a {
 
 #signup {
 	width: 900px;
+	margin-top: 5px;
+	margin:  10px auto;
+}
+
+form > p {
+	display: inline;
+}
+
+#submit {
+	display: inline;
+}
+
+h2 {
+	text-align: center;
+}
+
+#form {
+	margin: 0 auto;
 }
