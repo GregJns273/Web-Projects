@@ -1,0 +1,35 @@
+#title {
+	color: #d19019;
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+
+div {
+	border-radius: 10px;
+	background-color: #e0cf79;
+	padding: 5px;
+	margin: 10px;
+}
+
+#blurb {
+	text-align: center;
+	font-weight: bold;
+}
+
+#plans {
+	text-align: center;
+	width: 900px;
+}
+
+a {
+	display: inline; 
+}
+
+#navbar {
+	float: left;
+}
+
+#signup {
+	width: 900px;
+}

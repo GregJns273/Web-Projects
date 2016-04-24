@@ -1,1 +1,1 @@
-This is where my projects made for web browsers will live.
+Here's where my web browser related projects will live.
