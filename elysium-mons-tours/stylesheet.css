@@ -25,11 +25,12 @@ div {
 }
 
 a {
-	display: inline; 
+	display: inline
 }
 
 #navbar {
-	float: left;
+	margin: auto;
+	text-align: center;
 }
 
 #signup {
@@ -52,4 +53,8 @@ h2 {
 
 #form {
 	margin: 0 auto;
+}
+
+table * {
+	border: 2px black solid; 
 }
