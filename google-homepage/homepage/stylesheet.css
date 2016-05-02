@@ -14,12 +14,14 @@
 
 #submitbutton {
 	position: relative;
+	display: inline;
 }
 
 #feelinglucky {
-
+	display: inline;
 }
 
 #buttons {
 	width: 575px;
+	padding: 50px;
 }
