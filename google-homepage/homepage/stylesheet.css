@@ -22,8 +22,9 @@
 }
 
 #submitbutton {
-	position: relative;
+	position: absolute;
 	display: inline;
+	left: 90px;
 }
 
 #feelinglucky {
