@@ -70,7 +70,37 @@
 #bottom_bar {
 	position: absolute;
 	width: 99%;
-	bottom: 1px;
+	bottom: 10px;
+}
+
+#advertising {
+	position: absolute;
+	display: inline;
+}
+
+#buisness {
+	position: absolute;
+	display: inline;
+}
+
+#about {
+	position: absolute;
+	display: inline;
+}
+
+#privacy {
+	position: absolute;
+	display: inline;
+}
+
+#terms {
+	position: absolute;
+	display: inline;
+}
+
+#settings {
+	position: absolute;
+	display: inline;
 }
 
 
