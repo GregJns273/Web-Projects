@@ -68,7 +68,9 @@
 }
 
 #bottom_bar {
-	
+	position: absolute;
+	width: 99%;
+	bottom: 1px;
 }
 
 
