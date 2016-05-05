@@ -67,10 +67,9 @@
 	right: 30px;
 }
 
-#bottom_bar {
+#bottom-bar {
 	position: absolute;
 	width: 99%;
-	bottom: 10px;
 }
 
 #advertising {
