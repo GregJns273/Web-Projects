@@ -36,3 +36,7 @@
 #buttons {
 	width: 575px;
 }
+
+#top_bar {
+	position: absolute;
+}
