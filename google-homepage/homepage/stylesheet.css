@@ -106,11 +106,13 @@
 #privacy {
 	position: absolute;
 	display: inline;
+	right: 90px;
 }
 
 #terms {
 	position: absolute;
 	display: inline;
+	right: 20px;
 }
 
 #settings {
