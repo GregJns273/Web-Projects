@@ -75,6 +75,16 @@
 	bottom: 1px;
 }
 
+#left-bar {
+	position: absolute;
+	left: 1px;
+}
+
+#right-bar {
+	position: absolute;
+	right: 100px;
+}
+
 #advertising {
 	position: absolute;
 	display: inline;
