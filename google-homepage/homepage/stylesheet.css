@@ -51,6 +51,7 @@
 #images {
 	position: absolute;
 	display: inline;
+	right: 150px;
 }
 
 #apps {
