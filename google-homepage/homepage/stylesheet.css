@@ -88,16 +88,19 @@
 #advertising {
 	position: absolute;
 	display: inline;
+	left: 5px;
 }
 
 #buisness {
 	position: absolute;
 	display: inline;
+	left: 100px;
 }
 
 #about {
 	position: absolute;
 	display: inline;
+	left: 190px;
 }
 
 #privacy {
