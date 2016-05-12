@@ -74,6 +74,9 @@
 	border-top: 1px solid #E4E4E4;
 	bottom: 1px;
 	background-color: #F2F2F2;
+    font-size: 13px;
+	font-family: arial sans-serif;
+	color: #666666;
 }
 
 #left-bar {
@@ -135,5 +138,8 @@ a:hover {
 	text-decoration: underline;
 }
 
+#bottom-bar a:link {
+	color: #666666;
+}
 
 
