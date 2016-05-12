@@ -96,21 +96,33 @@
 
 #advertising {
 	position: static;
-	display: inline;
+	display: inline-block;
 	margin: auto;
 	padding-left: 27px;
+	width: 63px;
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 #buisness {
 	position: static;
 	display: inline;
 	padding-left: 27px;
+	width: 63px;
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 #about {
 	position: static;
 	display: inline;
 	padding-left: 27px;
+	width: 63px;
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 #privacy {
