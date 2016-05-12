@@ -114,20 +114,21 @@
 }
 
 #privacy {
-	position: absolute;
+	position: static;
 	display: inline;
-	right: 90px;
+	padding-left: 27px;
 }
 
 #terms {
-	position: absolute;
+	position: static;
 	display: inline;
-	right: 20px;
+	padding-left: 27px;
 }
 
 #settings {
-	position: absolute;
+	position: static;
 	display: inline;
+	padding-left: 27px;
 }
 
 a:link {
