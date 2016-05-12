@@ -95,22 +95,22 @@
 }
 
 #advertising {
-	position: absolute;
+	position: static;
 	display: inline;
-	left: 5px;
 	margin: auto;
+	padding-left: 27px;
 }
 
 #buisness {
-	position: absolute;
+	position: static;
 	display: inline;
-	left: 100px;
+	padding-left: 27px;
 }
 
 #about {
-	position: absolute;
+	position: static;
 	display: inline;
-	left: 190px;
+	padding-left: 27px;
 }
 
 #privacy {
