@@ -71,24 +71,30 @@
 	position: absolute;
 	width: 99%;
 	height: 40px;
-	border: 1px solid black;
+	border-top: 1px solid black;
 	bottom: 1px;
 }
 
 #left-bar {
 	position: absolute;
 	left: 1px;
+	margin: auto;
+	width: 400px;
+	height: 40px;
 }
 
 #right-bar {
 	position: absolute;
-	right: 100px;
+	right: 1px;
+	width: 400px;
+	height: 40px;
 }
 
 #advertising {
 	position: absolute;
 	display: inline;
 	left: 5px;
+	margin: auto;
 }
 
 #buisness {
