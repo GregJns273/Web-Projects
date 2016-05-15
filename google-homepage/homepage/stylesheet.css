@@ -38,9 +38,13 @@
 }
 
 #top_bar {
-	position: absolute;
-	width: 99%;
+	position: relative;
+	left: 0;
+	right: 0;
 	top: 20px;
+	height: 30px;
+	width: 222px;
+	right: 1px;
 }
 
 #gmail {
