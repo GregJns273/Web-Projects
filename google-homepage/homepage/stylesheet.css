@@ -41,8 +41,8 @@
 	position: absolute;
 	top: 20px;
 	height: 30px;
-	width: 222px;
-	right: 1px;
+	left: 0;
+	right: 0;
 }
 
 #gmail {
