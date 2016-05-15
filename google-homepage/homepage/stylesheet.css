@@ -170,4 +170,8 @@ a:hover {
 	color: #666666;
 }
 
+#top_bar a:link {
+	color: black;
+}
+
 
