@@ -69,7 +69,8 @@
 
 #bottom-bar {
 	position: absolute;
-	width: 99%;
+	left: 0;
+	right: 0;
 	height: 40px;
 	border-top: 1px solid #E4E4E4;
 	bottom: 1px;
