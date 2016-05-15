@@ -47,28 +47,34 @@
 
 #gmail {
 	position: static;
-	display: inline;
+	display: inline-block;
 	font-size: 12px;
 	margin-right: 10px;
 }
 
 #images {
 	position: static;
-	display: inline;
+	display: inline-block;
 	font-size: 12px;
 	margin-right: 10px;
 }
 
 #apps {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	margin-right: 10px;
 }
 
 #sign_in {
 	position: static;
-	display: inline;
+	display: inline-block;
 	margin-right: 10px;
+	width: 45px;
+	height: 28px;
+	font-size: 12px;
+	background-color: #019fde;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 
 #bottom-bar {
