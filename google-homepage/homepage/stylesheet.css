@@ -49,14 +49,14 @@
 #gmail {
 	position: static;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 13px;
 	margin-right: 10px;
 }
 
 #images {
 	position: static;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 13px;
 	margin-right: 10px;
 }
 
@@ -64,6 +64,7 @@
 	position: relative;
 	display: inline-block;
 	margin-right: 10px;
+	font-size: 13px;
 }
 
 #sign_in {
@@ -72,7 +73,7 @@
 	margin-right: 10px;
 	width: 45px;
 	height: 28px;
-	font-size: 12px;
+	font-size: 13px;
 	background-color: #019fde;
 	padding-right: 12px;
 	padding-left: 12px;
@@ -86,7 +87,7 @@
 	border-top: 1px solid #E4E4E4;
 	bottom: 1px;
 	background-color: #F2F2F2;
-    font-size: 12px;
+    font-size: 13px;
 	font-family: arial, sans-serif;
 	color: #666666;
 }
