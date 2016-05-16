@@ -39,11 +39,20 @@
 
 #top_bar {
 	position: absolute;
+	display: inline-block;
 	top: 20px;
 	height: 30px;
 	left: 0;
 	right: 0;
 	font-family: arial, sans-serif;
+}
+
+#topbarcontent {
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	width: 245px;
+	float: right;
 }
 
 #gmail {
