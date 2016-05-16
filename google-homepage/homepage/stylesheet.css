@@ -53,31 +53,37 @@
 	height: 30px;
 	width: 245px;
 	float: right;
+	display: flex;
+  	justify-content: center;
 }
 
 #gmail {
-	position: static;
+	position: absolute;
 	display: inline-block;
 	font-size: 13px;
 	margin-right: 10px;
+	top: 50%;
+	align-self: center;
 }
 
 #images {
-	position: static;
+	position: absolute;
 	display: inline-block;
 	font-size: 13px;
 	margin-right: 10px;
+	align-self: center;
 }
 
 #apps {
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	margin-right: 10px;
 	font-size: 13px;
+	align-self: center;
 }
 
 #sign_in {
-	position: static;
+	position: absolute;
 	display: inline-block;
 	margin-right: 10px;
 	width: 45px;
@@ -86,6 +92,7 @@
 	background-color: #019fde;
 	padding-right: 12px;
 	padding-left: 12px;
+	align-self: center;
 }
 
 #bottom-bar {
