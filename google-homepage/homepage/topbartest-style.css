@@ -20,11 +20,13 @@
 
 /*units inside the top bar segment*/
 #unit1 {
-	margin-right: 10px;
+	position: absolute;
+	right: 214px;
 }
 
 #unit2 {
-	margin-right: 10px;
+	position: absolute;
+	right: 156px;
 }
 
 /*to center div: set child to position: absolute; top: 50%; margin-top: half child elements height*/
