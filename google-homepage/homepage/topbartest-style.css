@@ -41,6 +41,13 @@
 	display: inline-block;
 }
 
+#topbarsegment > a {
+	font-size: 13px;
+	color: white;
+	font-weight: 700;
+	font-family: arial, sans-serif;
+}
+
 #button {
 	position: absolute;
 	top: 50%;
