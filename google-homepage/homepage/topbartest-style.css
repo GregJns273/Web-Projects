@@ -5,8 +5,9 @@
 
 /*main top bar container*/
 #topbarfield {
-	height: 40px;
+	height: 30px;
 	width: 100%;
+	margin-top: 10px;
 }
 
 /*segment inside the top bar container*/
@@ -14,7 +15,7 @@
 	/*to center div: set parent element to position: relative*/
 	position: relative;
 	width: 400px;
-	height: 40px;
+	height: 30px;
 	float: right;
 }
 
@@ -46,21 +47,24 @@
 	margin-top: -20px;
 	right: 28px;
 	width: 80px;
-	height: 40px;
+	height: 30px;
 	display: inline-block;
+	background-color: blue;
 }
 
 /*style for the links*/
 a:link {
-
+	text-decoration: none;
+	color: black;
 }
 
 a:hover {
-
+	text-decoration: underline;
+	color: black;
 }
 
 /*centering the spans*/
 #topbarsegment > span {
 	/*to center span: set parent of span to line-height: height of container*/
-	line-height: 40px;
+	line-height: 30px;
 }
