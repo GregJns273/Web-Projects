@@ -7,7 +7,7 @@
 #topbarfield {
 	height: 30px;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 16px;
 }
 
 /*segment inside the top bar container*/
@@ -22,41 +22,50 @@
 /*units inside the top bar segment*/
 #gmail {
 	position: absolute;
-	right: 214px;
+	right: 210px;
 }
 
 #images {
 	position: absolute;
-	right: 156px;
+	right: 153px;
 }
 
 /*to center div: set child to position: absolute; top: 50%; margin-top: half child elements height*/
 #piclink {
 	position: absolute;
 	top: 50%;
-	margin-top: -12px;
-	right: 118px;
-	height: 24px;
-	width: 28px;
+	margin-top: -13px;
+	right: 106px;
+	height: 30px;
+	width: 30px;
 	display: inline-block;
 }
 
-#topbarsegment > a {
+#topbarsegment > #buttonoutside > a {
 	font-size: 13px;
 	color: white;
 	font-weight: 700;
 	font-family: arial, sans-serif;
+	text-align: center;
 }
 
 #button {
-	position: absolute;
-	top: 50%;
-	margin-top: -20px;
-	right: 28px;
-	width: 80px;
+	position: relative;
+	top: 5px;
+	width: 71px;
 	height: 30px;
 	display: inline-block;
 	background-color: #4683EA;
+}
+
+#buttonoutside{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	right: 22px;
+	width: 71px;
+	height: 30px;
+	display: inline-block;
 }
 
 /*style for the links*/
