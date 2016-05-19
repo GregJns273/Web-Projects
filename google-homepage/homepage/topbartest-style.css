@@ -62,12 +62,12 @@
 /*style for the links*/
 a:link {
 	text-decoration: none;
-	color: black;
+	color: #222222;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: black;
+	color: #222222;
 }
 
 /*centering the spans*/
