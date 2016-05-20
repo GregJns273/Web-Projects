@@ -37,15 +37,6 @@
 	display: inline-block;
 }
 
-/*font style for the Sign In text div*/
-#topbarsegment > a > div {
-	font-size: 13px;
-	color: white;
-	font-weight: 700;
-	font-family: arial, sans-serif;
-	text-align: center;
-}
-
 #button{
 	position: absolute;
 	top: 50%;
@@ -56,6 +47,11 @@
 	display: inline-block;
 	background-color: #4683EA;
 	line-height: 30px; /*vertically centers the Sign In text span*/
+	font-size: 13px;
+	color: white;
+	font-weight: 700;
+	font-family: arial, sans-serif;
+	text-align: center;
 }
 
 /*style for the links*/
