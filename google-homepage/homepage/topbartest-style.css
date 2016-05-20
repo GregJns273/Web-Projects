@@ -1,8 +1,4 @@
-/*borders on/off
-#topbarfield * {
-	border: 2px solid black;
-} */
-
+/*top bar*/
 /*main top bar container*/
 #topbarfield {
 	height: 30px;
@@ -41,7 +37,8 @@
 	display: inline-block;
 }
 
-#topbarsegment > #buttonoutside > a {
+/*font style for the Sign In text div*/
+#topbarsegment > a > div {
 	font-size: 13px;
 	color: white;
 	font-weight: 700;
@@ -49,23 +46,16 @@
 	text-align: center;
 }
 
-#button {
-	position: relative;
-	top: 5px;
-	width: 71px;
-	height: 30px;
-	display: inline-block;
-	background-color: #4683EA;
-}
-
-#buttonoutside{
+#button{
 	position: absolute;
 	top: 50%;
-	margin-top: -20px;
+	margin-top: -15px;
 	right: 22px;
 	width: 71px;
 	height: 30px;
 	display: inline-block;
+	background-color: #4683EA;
+	line-height: 30px; /*vertically centers the Sign In text span*/
 }
 
 /*style for the links*/
@@ -79,10 +69,11 @@ a:hover {
 	color: #222222;
 }
 
-/*centering the spans*/
+/*centering the gmail and images spans*/
 #topbarsegment > span {
 	/*to center span: set parent of span to line-height: height of container*/
 	line-height: 30px;
 	font-size: 13px;
 	font-family: arial, sans-serif;
 }
+/*top bar*/
