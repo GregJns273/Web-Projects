@@ -2,42 +2,35 @@
 
 /*full width bottom bar container*/
 #bottombarfull {
-
+  position: relative;;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: #666666;
+  bottom: 0px;
 }
 
 /*left and right bar segments*/
-#bottombarleft {
+span {
+  padding-left: 27px;
+}
 
+#bottombarleft {
+  position: absolute;
+  height: 14px;
+  width: 250px;
+  float: left;
 }
 
 #bottombarright {
-
+  position: relative;
+  height: 14px;
+  width: 250px;
+  float: right;
 }
 
 /*content in bars*/
-/*left bar*/
-#advertising {
-
-}
-
-#buisness {
-
-}
-
-#about {
-
-}
-
-/*right bar*/
-#privacy {
-
-}
-
-#terms {
-
-}
-
-#settings {
-
-}
 /*bottom bar*/
