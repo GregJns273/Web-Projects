@@ -20,20 +20,13 @@
 }
 
 /*search buttons*/
-#submit {
-  background-color: #ccc;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius:6px;
-  color: #fff;
-  font-family: 'Oswald';
-  font-size: 20px;
-  text-decoration: none;
-  cursor: poiner;
-  border:none;
+button[type=submit] {
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: #666666;
 }
 
-#imfeelinglucky {
-
-}
 /*center block*/
