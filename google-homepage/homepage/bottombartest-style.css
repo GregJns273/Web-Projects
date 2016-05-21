@@ -10,7 +10,6 @@
   border-top: 1px solid #e4e4e4;
   font-family: arial, sans-serif;
   font-size: 13px;
-  color: #666666;
   bottom: 0px;
 }
 
@@ -39,4 +38,13 @@ a {
 }
 
 /*content in bars*/
+a:link {
+  text-decoration: none;
+  color: #666666;
+  }
+
+  a:hover {
+    text-decoration: underline;
+      color: #666666;
+  }
 /*bottom bar*/
