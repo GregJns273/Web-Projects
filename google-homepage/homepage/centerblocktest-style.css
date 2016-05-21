@@ -2,7 +2,7 @@
 
 /*whole center block*/
 #centerblock {
-  
+
 }
 
 /*Google logo*/
@@ -20,12 +20,17 @@
 }
 
 /*search buttons*/
-#searchbuttons {
-
-}
-
-#search {
-
+#submit {
+  background-color: #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  cursor: poiner;
+  border:none;
 }
 
 #imfeelinglucky {
