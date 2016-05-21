@@ -2,9 +2,10 @@
 
 /*full width bottom bar container*/
 #bottombarfull {
-  position: relative;;
-  width: 100%;
+  position: absolute;
   height: 40px;
+  left: 0;
+  right: 0;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   font-family: arial, sans-serif;
@@ -19,16 +20,21 @@ span {
 }
 
 #bottombarleft {
-  position: absolute;
+  position: relative;
+  top: 50%;
+  margin-top: -7px;
   height: 14px;
   width: 250px;
   float: left;
+  margin-left: 3px;
 }
 
 #bottombarright {
   position: relative;
+  top: 50%;
+  margin-top: -7px;
   height: 14px;
-  width: 250px;
+  width: 244px;
   float: right;
 }
 
