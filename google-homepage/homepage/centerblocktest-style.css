@@ -26,7 +26,17 @@ button[type=submit] {
   font-size: 13px;
   font-family: arial, sans-serif;
   font-weight: bold;
-  color: #666666;
+  color: #757575;
+  height: 36px;
+  width: 135px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+button[type=submit]:hover {
+  border: 1px solid grey;
+  border-radius: 2px;
+  color: black;
 }
 
 /*center block*/
